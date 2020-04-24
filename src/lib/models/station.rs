@@ -4,7 +4,7 @@ use regex::Regex;
 
 use std::fs;
 
-const STATION_POSITION_FILE: &'static str = "data/rel_station_pos.csv";
+const STATION_POSITION_FILE: &'static str = "data/stations.csv";
 
 #[derive(Debug, Deserialize)]
 pub struct Station {
