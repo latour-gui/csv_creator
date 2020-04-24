@@ -1,8 +1,13 @@
 [package]
-name = "csv_downloader"
+name = "csv_creator"
 version = "0.1.0"
 authors = ["Guillaume Latour <g0latour@gmail.com>"]
 edition = "2018"
+default-run = "forecast"
+
+[lib]
+name = "bihelper"
+path = "src/lib/mod.rs"
 
 [dependencies]
 chrono = {version = "0.4.11", features = ["serde"]}
