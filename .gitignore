@@ -1,0 +1,6 @@
+target
+.history
+.idea
+.vscode
+**.log
+Cargo.lock
